@@ -1,20 +1,23 @@
-# to exclude Obsidian workspace settings (including plugin and hotkey configurations)
-.obsidian/*
-
-# OR only to exclude workspace cache
-.obsidian/workspace/*
-
-# Exclude plugins
-.obsidian/plugins/*
-
 # This file is used to keep track of last auto backup/pull
 .obsidian-git-data
 
 # Exclude Untitled Notes
 Untitled*
-# Exclude "bad" names
+# Exclude invalid names
 null*
 
 # Add below lines to exclude OS settings and caches
 .trash/
 .DS_Store
+
+# Specific .obsidian files we don't need to share
+.obsidian/workspace/*
+.obsidian/plugins/*
+
+.obsidian/workspace.json
+.obsidian/app.json
+.obsidian/appearance.json
+.obsidian/backlink.json
+.obsidian/core-plugins-migration.json
+.obsidian/core-plugins.json
+.obsidian/hotkeys.json
