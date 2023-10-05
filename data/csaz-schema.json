@@ -1,0 +1,49 @@
+{
+    "type": "object",
+    "properties": {
+        "title": {
+            "type": "string"
+        },
+        "type": {
+            "type": "string"
+        },
+        "level": {
+            "type": "string",
+            "enum": [
+                "Beginner1",
+                "Beginner2",
+                "Beginner3",
+                "Intermediate4",
+                "Intermediate5",
+                "Intermediate6",
+                "Advanced7"
+            ]
+        },
+        "otherNames": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "comesFrom": {
+            "type": "array",
+            "items": {
+                "$ref": "#"
+            }
+        },
+        "leadsTo": {
+            "type": "array",
+            "items": {
+                "$ref": "#"
+            }
+        },
+        "description": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "title",
+        "type",
+        "level"
+    ]
+}
