@@ -1,2 +1,4 @@
 # dance-graph
-A graph for dance
+An obsidian graph of dance moves and their connecting nodes
+
+## 
