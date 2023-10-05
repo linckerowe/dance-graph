@@ -1,0 +1,48 @@
+{
+    "moves": {
+        "arch": {
+            "title": "Arch",
+            "type": "Lead Turn",
+            "level": "Beginner1",
+            "otherNames": [
+                "Lead's Underarm Turn",
+                "Lace"
+            ]
+        },
+        "insideTurn": {
+            "title": "Inside Turn",
+            "type": "Spin",
+            "level": "Beginner1",
+            "otherNames": [
+                "Right Turn"
+            ]
+        },
+        "outsideTurn": {
+            "title": "Outside Turn",
+            "type": "Spin",
+            "level": "Beginner1",
+            "otherNames": [
+                "Underarm Turn"
+            ]
+        },
+        "beltLoop": {
+            "title": "Belt Loop",
+            "type": "Turn",
+            "level": "Beginner1",
+            "otherNames": [
+                "Back Slide",
+                "Belt Buckle",
+                "Waist Slide"
+            ]
+        },
+        "openPosition": {
+            "title": "Open Position",
+            "type": "Position",
+            "level": "Beginner1",
+            "otherNames": [
+                "Butterfly Position",
+                "Open Facing"
+            ]
+        }
+    }
+}
