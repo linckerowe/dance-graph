@@ -1,0 +1,9 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "Leads To": "multitext",
+    "Comes From": "multitext"
+  }
+}
